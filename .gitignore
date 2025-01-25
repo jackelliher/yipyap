@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Python build artifacts
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Audio recordings
+*.wav
+
+# System files
+.DS_Store
+Thumbs.db
+
