@@ -1,0 +1,26 @@
+{
+  "name": "audio-recorder",
+  "version": "1.0.0",
+  "description": "Audio recording application",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node-dev --respawn src/main.ts"
+  },
+  "dependencies": {
+    "@types/play-sound": "^1.1.2",
+    "dotenv": "^16.4.7",
+    "openai": "^4.80.1",
+    "play-sound": "^1.1.6",
+    "wav": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "date-fns": "^2.30.0",
+    "node-record-lpcm16": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
